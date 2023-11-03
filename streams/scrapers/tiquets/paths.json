@@ -1,0 +1,26 @@
+{
+    "show_reviews": {
+        "t": "xpath",
+        "v": "//button[text()='Show more reviews']"
+    },
+    "reviews": {
+        "t":"css selector",
+        "v": "article.Review"
+    },
+    "product":{
+        "t": "css selector",
+        "v":"h1.text-heading-m > span:nth-child(1)"
+    },
+    "review": {
+        "t": "css selector",
+        "v": ".my-0"
+    },
+    "rating":{
+        "t": "xpath",
+        "v": "//div[@data-rating-score]"
+    },
+    "date": {
+        "t": "css selector",
+        "v": "div:nth-child(1) > div:nth-child(2) > div:nth-child(2)"
+    }
+}

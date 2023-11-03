@@ -1,0 +1,38 @@
+{
+    "see_more": {
+        "t": "css selector",
+        "v": ".c-button--outlined-standard"
+    },
+    "total_reviews":{
+        "t": "css selector",
+        "v": "#customer-reviews"
+    },
+    "show_recent_reviews": {
+        "t": "xpath",
+        "v": "/html/body/div[2]/div/section/div/main/section/section[1]/div/div[2]/div[2]/section/section[1]/div/button"
+    },
+    "recent_reviews": {
+        "t": "xpath",
+        "v": "/html/body/div[2]/div/section/div/main/section/section[1]/div/div[2]/div[2]/section/section[1]/div/div/div/div[2]/div/div/label"
+    },
+    "reviews": {
+        "t": "xpath",
+        "v": "/html/body/div[2]/div/section/div/main/section/section[1]/div/div[2]/div[2]/section/section[3]/section[1]/section/div"
+    },
+    "name": {
+        "t": "css selector",
+        "v": "div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)"
+        },
+    "date": {
+        "t": "css selector",
+        "v": "div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(1)"
+    },
+    "review": {
+        "t":"css selector",
+        "v": "div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2)"
+    },
+    "rating": {
+        "t": "class name",
+        "v": "rating-star"
+    }
+}
