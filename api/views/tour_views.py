@@ -11,6 +11,7 @@ class TourOperatorListCreateView(generics.ListCreateAPIView):
     serializer_class = TourOperatorSerializer
 
     def list(self, request, *args, **kwargs):
+        print("Create Calling.....")
         tour_operator = request.GET.get('tour_operator', '')
         rating = request.GET.get('rating', None)
 
